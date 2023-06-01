@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Nova versão lab DevOps 3!');
+  res.send('Teste de Nova versão !');
 });
 
 app.get('*', (req, res) => {
